@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "jogo-velha",
+    "name": "Jogo da Velha",
     "slug": "jogo-velha",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.contato.william.jogovelha"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22c69a42-69fd-4062-8d8d-01f720eb2f10"
+      }
     }
   }
 }
